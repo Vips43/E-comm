@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "postinstall": "chmod +x node_modules/.bin/tailwindcss",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css"
   },
   "dependencies": {
@@ -14,16 +13,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vips43/Flipkart-clone.git"
+    "url": "git+https://github.com/Vips43/E-comm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Vips43/Flipkart-clone/issues"
+    "url": "https://github.com/Vips43/E-comm/issues"
   },
-  "homepage": "https://github.com/Vips43/Flipkart-clone#readme",
+  "homepage": "https://github.com/Vips43/E-comm#readme",
   "devDependencies": {
     "tailwindcss": "^4.1.14"
   }
