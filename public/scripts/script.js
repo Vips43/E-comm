@@ -69,13 +69,9 @@ cartIcon.addEventListener('click', () => {
         cartIconShow.innerHTML = "<p class='text-sm text-gray-400 p-3'>Cart is empty</p>";
         return;
     }
-
 })
 
-
-
 //cart manipulation
-
 document.addEventListener('DOMContentLoaded', () => {
 
     colgateData.map(e => {
@@ -191,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   class="px-2 py-1 font-bold flex items-center justify-center text-[0.6rem] border bg-blue-600 text-white cursor-pointer rounded-sm">
                   -
                 </div>
-                <div class="w-5 flex items-center justify-center text-[0.6rem] rounded-sm select-all">0</div>
+                <div class="w-5 flex items-center justify-center text-[0.6rem] rounded-sm select-all">${cartUpdate(0)}</div>
                 <div onclick="Inc(this)"
                   class="px-2 font-bold flex items-center justify-center text-[0.6rem] border bg-blue-600 text-white cursor-pointer rounded-sm">
                   +
@@ -274,20 +270,19 @@ function cartPush(item, quantity) {
             quantity
         });
     }
-    // console.log(cartItems);
-
-
     cartItemAdd();
 }
 
 function cartItemAdd() {
-    // Clear old cart content first
     cartIconShow.innerHTML = "";
     if (cartItems.length === 0) {
         cartIconShow.innerHTML = "<p class='text-sm text-gray-400 p-3'>Cart is empty</p>";
         return;
     }
+
+    if(cartItems.length < 0) return;
     cartItems.forEach(item => {
+
         let div = document.createElement("div");
         div.className = "border border-gray-100 px-2 py-2 bg-white flex items-center gap-4";
 
@@ -318,7 +313,27 @@ function cartItemAdd() {
 
         cartIconShow.appendChild(div);
     });
+    
 }
+
+function totalPrice(){
+    let priceDiv = document.getElementById('pricing');
+    console.log(cartItems.map(i=> cartItems[i]))
+    priceDiv.innerHTML = `
+            <p class="flex items-center justify-between">Total  
+                <span>1000</span></p>
+            <p class="flex items-center justify-between">Tax            
+                <span>18%</span>
+            </p>
+            <p class="flex items-center justify-between">Disc  
+                <span>10%</span>
+            </p> <hr class="border-gray-200 mx-2 my-2">
+            <p class="flex justify-between font-bold">Grand Total
+            <span>1000</span>
+            </p>`
+}
+
+totalPrice()
 
 function updateCartQty(id, change) {
     let item = cartItems.find(i => i.id === id)
@@ -440,3 +455,5 @@ document.addEventListener('click', (e) => {
         inputDropDown.classList.remove('active')
     }
 })
+
+
