@@ -1,13 +1,11 @@
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css"
+    "build": "npx --no-install tailwindcss -i ./src/input.css -o ./public/output.css"
   },
-  
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13",
-    "express": "^5.1.0",
-    "tailwindcss": "^4.1.13"
+    "express": "^5.1.0"
   },
   "name": "e-comm",
   "version": "1.0.0",
@@ -24,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Vips43/Flipkart-clone/issues"
   },
-  "homepage": "https://github.com/Vips43/Flipkart-clone#readme"
+  "homepage": "https://github.com/Vips43/Flipkart-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.14"
+  }
 }
