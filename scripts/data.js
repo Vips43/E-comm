@@ -1,7 +1,7 @@
 let colgateData = [
     {
         id:'col1',
-        img: 'image/Col.jpeg',
+        img: '/image/Col.jpeg',
         name: 'Colgate charcoal',
         currPrice: '220',
         oldPrice: '250',
@@ -9,7 +9,7 @@ let colgateData = [
     },
     {
         id:'col2',
-        img: 'image/Col1.jpeg',
+        img: '/image/Col1.jpeg',
         name: 'Colgate MaxFresh',
         currPrice: '320',
         oldPrice: '350',
@@ -18,7 +18,7 @@ let colgateData = [
     {
         
         id:'col3',
-        img: 'image/Col2.png',
+        img: '/image/Col2.png',
         name: 'Colgate Total Active',
         currPrice: '380',
         oldPrice: '400',
@@ -27,7 +27,7 @@ let colgateData = [
     {
         
         id:'col3',
-        img: 'image/Col3.jpeg',
+        img: '/image/Col3.jpeg',
         name: 'Colgate Sensitive',
         currPrice: '420',
         oldPrice: '450',
@@ -36,7 +36,7 @@ let colgateData = [
     {
         
         id:'col4',
-        img: 'image/col4.jpeg',
+        img: '/image/col4.jpeg',
         name: 'Colgate VedShakti',
         currPrice: '300',
         oldPrice: '350',
@@ -45,7 +45,7 @@ let colgateData = [
     {
         
         id:'col5',
-        img: 'image/col5.jpg',
+        img: '/image/col5.jpg',
         name: 'Colgate Amino Shakti',
         currPrice: '132',
         oldPrice: '140',
@@ -54,7 +54,7 @@ let colgateData = [
     {
         
         id:'col6',
-        img: 'image/col6.jpg',
+        img: '/image/col6.jpg',
         name: 'Colgate Strong Teeth',
         currPrice: '319',
         oldPrice: '330',
@@ -62,7 +62,7 @@ let colgateData = [
     },
     {
         id:'col7',
-        img: 'image/col7.jpg',
+        img: '/image/col7.jpg',
         name: 'Dabur Red Toothpaste',
         currPrice: '299',
         oldPrice: '430',
@@ -73,7 +73,7 @@ let colgateData = [
 const mobileData = [
     {
         id:'mob1',
-        img: 'image/mobiles/mob1.jpg',
+        img: '/image/mobiles/mob1.jpg',
         name: 'realme NARZO 80x 5G',
         currPrice: '11,498',
         oldPrice: '15,999',
@@ -81,7 +81,7 @@ const mobileData = [
     },
     {
         id:'mob2',
-        img: 'image/mobiles/mob2.jpg',
+        img: '/image/mobiles/mob2.jpg',
         name: 'Redmi A4 5G (Sparkle Purple, 4GB RAM, 64GB Storage)',
         currPrice: '7,499',
         oldPrice: '10,999',
@@ -90,7 +90,7 @@ const mobileData = [
     {
         
         id:'mob3',
-        img: 'image/mobiles/mob3.webp',
+        img: '/image/mobiles/mob3.webp',
         name: 'Samsung Galaxy M06 5G (Sage Green, 4GB RAM, 64GB Storage)',
         currPrice: '7,499',
         oldPrice: '12,499',
@@ -99,7 +99,7 @@ const mobileData = [
     {
         
         id:'mob4',
-        img: 'image/mobiles/mob4.webp',
+        img: '/image/mobiles/mob4.webp',
         name: 'iQOO Z10 Lite 5G (Titanium Blue, 4GB RAM, 128GB Storage)',
         currPrice: '9,989',
         oldPrice: '13,999',
@@ -107,7 +107,7 @@ const mobileData = [
     },
     {
         id:'mob5',
-        img: 'image/mobiles/mob5.webp',
+        img: '/image/mobiles/mob5.webp',
         name: 'OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB',
         currPrice: '15,999',
         oldPrice: '20,999',
@@ -115,7 +115,7 @@ const mobileData = [
     },
     {
         id:'mob6',
-        img: 'image/mobiles/mob6.webp',
+        img: '/image/mobiles/mob6.webp',
         name: 'Redmi 13 5G Prime Edition, Black Diamond, 8GB+128GB',
         currPrice: '10,999',
         oldPrice: '19,999',
@@ -123,7 +123,7 @@ const mobileData = [
     },
     {
         id:'mob7',
-        img: 'image/mobiles/mob7.webp',
+        img: '/image/mobiles/mob7.webp',
         name: 'OnePlus Nord 5 | Snapdragon 8s Gen 3 | Stable 144FPS',
         currPrice: '31,998',
         oldPrice: '34,999',
@@ -131,7 +131,7 @@ const mobileData = [
     },
     {
         id:'mob8',
-        img: 'image/mobiles/mob8.webp',
+        img: '/image/mobiles/mob8.webp',
         name: 'Lava Bold N1 Pro (Titanium Gold, 4 GB RAM, 128 GB Storage)',
         currPrice: '6,599',
         oldPrice: '8,339',
@@ -139,7 +139,7 @@ const mobileData = [
     },
     {
         id:'mob9',
-        img: 'image/mobiles/mob9.webp',
+        img: '/image/mobiles/mob9.webp',
         name: 'POCO C71, Desert Gold (6GB, 128GB)',
         currPrice: '6,799',
         oldPrice: '9,999',
@@ -147,7 +147,7 @@ const mobileData = [
     },
     {
         id:'mob10',
-        img: 'image/mobiles/mob10.jpg',
+        img: '/image/mobiles/mob10.jpg',
         name: 'POCO M7 5G, Ocean Blue (6GB, 128GB)',
         currPrice: '8,489',
         oldPrice: '12,999',
@@ -158,7 +158,7 @@ const mobileData = [
 const footwearData = [
     {
         id:'foot1',
-        img: 'image/others/shoe1.webp',
+        img: '/image/others/shoe1.webp',
         brand: 'BRUTON ',
         name: 'FITMAN Loafers For Men  (Blue , 7)',
         currPrice: '238',
@@ -167,7 +167,7 @@ const footwearData = [
     },
     {
         id:'foot2',
-        img: 'image/others/shoe2.webp',
+        img: '/image/others/shoe2.webp',
         brand: 'BRUTON',
         name: 'Fit-Man Slip Sandals',
         currPrice: '195',
@@ -176,7 +176,7 @@ const footwearData = [
     },
     {
         id:'foot3',
-        img: 'image/others/shoe3.webp',
+        img: '/image/others/shoe3.webp',
         brand: 'BOTOWI',
         name: 'Clogs For Men',
         currPrice: '199',
@@ -185,7 +185,7 @@ const footwearData = [
     },
     {
         id:'foot4',
-        img: 'image/others/shoe4.webp',
+        img: '/image/others/shoe4.webp',
         brand: 'BSSHOSE',
         name: 'Casuals For Men',
         currPrice: '175',
@@ -194,7 +194,7 @@ const footwearData = [
     },
     {
         id:'foot5',
-        img: 'image/others/shoe5.webp',
+        img: '/image/others/shoe5.webp',
         brand: 'KANEGGYE',
         name: 'For Men crocks',
         currPrice: '196',
@@ -203,7 +203,7 @@ const footwearData = [
     },
     {
         id:'foot6',
-        img: 'image/others/shoe6.webp',
+        img: '/image/others/shoe6.webp',
         brand: 'AJANTA',
         name: 'Casual PVC Water',
         currPrice: '269',
@@ -212,7 +212,7 @@ const footwearData = [
     },
     {
         id:'foot7',
-        img: 'image/others/shoe7.webp',
+        img: '/image/others/shoe7.webp',
         brand: 'BRUTON',
         name: 'Loafers For Men',
         currPrice: '218',
@@ -221,7 +221,7 @@ const footwearData = [
     },
     {
         id:'foot8',
-        img: 'image/others/shoe8.webp',
+        img: '/image/others/shoe8.webp',
         brand: ' Koburg',
         name: 'Strap Sports Sandals',
         currPrice: '499',
@@ -230,7 +230,7 @@ const footwearData = [
     },
     {
         id:'foot9',
-        img: 'image/others/shoe9.webp',
+        img: '/image/others/shoe9.webp',
         brand: 'Trendmode',
         name: 'Velcro Strappy Sandals',
         currPrice: '398',
@@ -239,7 +239,7 @@ const footwearData = [
     },
     {
         id:'foot10',
-        img: 'image/others/shoe10.webp',
+        img: '/image/others/shoe10.webp',
         brand: 'BOOMER CUBS',
         name: 'Velcro Peep Toes Footer',
         currPrice: '475',
