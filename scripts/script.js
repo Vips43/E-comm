@@ -13,7 +13,7 @@ let buttons = document.querySelectorAll('.btn')
 let product = document.querySelectorAll('.product')
 
 
-//UI handlers
+//swiper js
 let swiper = new Swiper(".mySwiper", {
     effect: "slides",
     grabCursor: true,
